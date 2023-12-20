@@ -1,0 +1,135 @@
+body{
+	background: rgb(0,0,33);
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	font-size: 1.04rem;
+}
+
+nav{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	justify-content:space-around;
+	display: flex;
+	align-items:center;
+	height: 70px;
+	transition: 0.6s;
+}
+.left{
+	justify-content:center;
+	display: flex;
+
+}
+.right{
+	font-size: 1.6rem;
+
+}
+.left li{
+
+	list-style: none;
+	margin: 0px 20px;
+}
+.left li a{
+
+	text-decoration: none;
+	color: white;
+
+}
+.left li a:hover{
+
+	color: rgb(153,153,226);
+	font-size:1.015rem;
+	
+}
+.firstsec{
+	display: flex;
+	justify-content: space-around;
+	margin: 40px 0 180px 0px;
+	align-items: center;
+	
+}
+.firstsec div{
+	font-size:1.5em;
+}
+.firstsec span{
+	font-size:1.5em;
+}
+.firstsec > div{
+	width: 37%;
+
+}
+.secondsec span{
+	font-size: 0.7rem;
+}
+.secondsec h1{
+	font-size: 1.9rem;
+	align-items: center;
+}
+
+.secondsec{
+	margin: 100px 90px 130px 90px;
+	height: 80vw;
+	
+}
+.rightsec img{
+	height:90%;
+	width: 95%;
+	margin: 70px 0;
+}
+.sticky {
+	height:55px;
+  background: black;
+}
+.sticky li a{
+	background: black;
+  color: white;
+}
+.hidden{
+	opacity: 0;
+	transition: 3.3s;
+}
+.show{
+	opacity: 1;
+}
+.box{
+	margin:100px 0;
+	border:2px;
+	background:white;
+	height:2px;
+	display:flex;
+}
+.secondsec .vertical{
+	height:93px;
+	width: 1px;
+	margin:0 120px;
+	background:white;
+}
+.vert-title{
+	top: 100px;
+    position: relative;
+    width: 149px;
+    font-size: 16px;
+    left: -9px;
+}
+.vert-desc{
+	position: relative;
+    top: 106px;
+    color: gray;
+    font-size: 9px;
+    width: 127px;
+    left: -9px;
+}
+.about-text{
+	top:50px;
+	margin-bottom: 150px;
+	width:100%;
+	color: #d1c4e9;
+}
+.about-title{
+	font-size: 2rem;
+}
