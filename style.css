@@ -133,3 +133,30 @@ nav{
 .about-title{
 	font-size: 2rem;
 }
+footer{
+	background-color: black;
+	height: 233px;
+}
+.footer{
+	display: flex;
+}
+.btn{
+	color: #d1c4e9;
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 1px solid white;
+    background: #1e0061;
+    border-radius: 5px;
+}
+.btn:hover{
+	cursor:pointer;
+	color: rgb(153,153,226);
+	
+}
+.btn img{
+	height: 20px;
+
+}
+.btn-div{
+	margin:20px 0px;
+}
